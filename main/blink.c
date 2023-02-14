@@ -117,8 +117,8 @@ u_int8_t sheep_s9=0;
 用idf.py menuconfig进入菜单配置
 或者修改下述宏定义进而配置wifi ssid、密码
 */
-#define EXAMPLE_ESP_WIFI_SSID      "CMCC-LtRb"
-#define EXAMPLE_ESP_WIFI_PASS      "JtyLHLD3"
+#define EXAMPLE_ESP_WIFI_SSID      "你的wifi"
+#define EXAMPLE_ESP_WIFI_PASS      "密码"
 //#define EXAMPLE_ESP_MAXIMUM_RETRY  CONFIG_ESP_MAXIMUM_RETRY             //最大重试数
 #define EXAMPLE_ESP_MAXIMUM_RETRY  100             //最大重试数
 
@@ -425,9 +425,9 @@ void mqtt_app_start(void)
 {
     // 1、定义一个MQTT客户端配置结构体，输入MQTT的url
     esp_mqtt_client_config_t mqtt_cfg = {
-        .uri = "mqtt://47.92.23.144",// ip地址
+        .uri = "mqtt://xxx.xx.xx.xx",// ip地址
         .username = "ESP32",
-        .port = 1883
+        .port = xxxx
         //.alpn_protos,
         // .use_secure_element
     };
