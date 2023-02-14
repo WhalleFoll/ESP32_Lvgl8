@@ -1,0 +1,20 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "idf.portWin": "COM3",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "custom.h": "c",
+        "lv_examples.h": "c",
+        "gui_guider.h": "c",
+        "nvs_flash.h": "c",
+        "sockets.h": "c",
+        "mqtt_client.h": "c",
+        "netdb.h": "c",
+        "cjson.h": "c",
+        "esp_event.h": "c",
+        "esp_partition.h": "c",
+        "string.h": "c",
+        "stdbool.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
